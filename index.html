@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoApp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<style>
+    .checked{
+        text-decoration: line-through;
+    }
+</style>
+<body>
+
+    <div  class="row mt-5">
+        <div class="offset-2">
+            <p class=" fs-1 mb-5" style="font-weight: bold; ">
+                <i>ToDo App</i>
+            </p>
+
+
+            <div class="row mb-5">
+                <p>Yapılacak Giriniz</p>
+                <input class="col-2" type="text" id="toDoInput">
+                <button class="col-1" style="margin-left: 10px" id="toDoButton"  type="submit"> Listeye Ekle</button>
+
+            </div>
+
+            
+            
+            <div class="row">
+                <div id="cardContainer">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
